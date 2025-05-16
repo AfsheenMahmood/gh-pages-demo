@@ -1,0 +1,65 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+.meal-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.day {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.meal-grid div {
+  padding: 8px;
+}
+
+input[type="checkbox"] {
+  accent-color: #4caf50;
+  transform: scale(1.2);
+  margin-right: 5px;
+}
+
+textarea.grocery-list {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 10px;
+  resize: vertical;
+}
